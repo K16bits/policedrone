@@ -1,6 +1,0 @@
-crie 2 pastas com os nomes: 
-    testeVideo
-    train 
-
-coloque os videos para treinar no /train
-coloque os videos de teste em /testeVideo

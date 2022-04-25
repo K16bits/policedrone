@@ -57,8 +57,7 @@ while cap.isOpened():
   if loss>0.00062:
       print('Abnormal Event Detected')
       cv2.putText(image,"Abnormal Event",(100,80),cv2.FONT_HERSHEY_SIMPLEX,2,(0,0,255),4)
-      cv2_imshow(image)
-  #cv2_imshow(image)
+  cv2.imshow("video",image)
 
 cap.release()
 cv2.destroyAllWindows()
